@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(10, 166, 250);
+  margin: 0;
+  font-family: sans-serif;
+  color: #fff ;
+
+
+}
+.box {
+  width: 100%;
+  height: 150px;
+  margin: 20px;
+  margin: 0;
+  background: url("https://i.pinimg.com/736x/f8/0d/17/f80d17f5fc6240bb137b98436dbcf417.jpg") top / cover fixed #6fa;
+}

@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #f80;
+    color: #fff;
+}
+.header {
+    box-sizing: border-box;
+    background-image: url("backgrount-color.jpeg");
+}
+.header__overlay {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f809;
+    position: absolute;
+    z-index: 1;
+   
+}
+.header__item-container {
+    position: relative;
+    z-index: 10;
+}
+h1 {
+    margin: 0;
+}

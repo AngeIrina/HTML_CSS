@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIDEBAR</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <form class="sidebar__form">
+        <input type="checkbox" id="open-menu" />
+        <label class="material-symbols-outlined" for="open-menu">close</label>
+        <label class="material-symbols-outlined open-button"  for="open-menu">double_arrow</label>
+      </form>
+      <picture class="sidebar__picture">
+        <source srcset="../logo.png" />
+        <img src="../logo.png" alt="Logo" />
+      </picture>
+      <nav class="sidebar__nav">
+        <ul>
+          <li class="sidebar__item">
+            <span class="material-symbols-outlined">notifications</span>
+            <a href="#">Notificaciones</a>
+          </li>
+          <li class="sidebar__item">
+            <span class="material-symbols-outlined">mail</span>
+            <a href="#">Mensajes</a>
+          </li>
+          <li class="sidebar__item">
+            <span class="material-symbols-outlined">shopping_cart</span>
+            <a href="#">Carrito</a>
+          </li>
+          <li class="sidebar__item">
+            <span class="material-symbols-outlined">account_balance</span>
+            <a href="#">Balance</a>
+          </li>
+          <li class="sidebar__item">
+            <span class="material-symbols-outlined">settings</span>
+            <a href="#">Configuración</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="sidebar__profile">
+        <ul>
+          <li class="sidebar__item item--profile">
+            <img src="../dalto.jpg" alt="Foto de Perfil" />
+            <span class="profile-option">PERFIL</span>
+          </li>
+          <li class="sidebar__item">
+            <span class="material-symbols-outlined">logout</span>
+            <a href="#">Cerrar Sesión</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </body>
+</html>

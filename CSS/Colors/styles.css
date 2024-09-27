@@ -1,0 +1,11 @@
+.box {
+    padding: 20px 50px;
+    background: rgb(200, 234, 120);
+    margin: 20px;
+    margin-left: 100px;
+    text-align: center;
+    color: hsl(210, 40%, 35%);
+    border-top: 2px solid #367;
+    font-family: sans-serif;
+    font-weight: bold;
+}
